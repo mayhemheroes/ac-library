@@ -1,0 +1,5 @@
+project: ac-library
+target: z-algorithm
+cmds:
+  - cmd: /fuzz
+    libfuzzer: true
